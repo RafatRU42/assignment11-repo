@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import toast, { Toaster } from 'react-hot-toast';
 
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Main from './Main/Main';
+import Home from './Pages/Home/Home';
 
 function App() {
+  const router = createBrowserRouter([
+    {path:'/', element:<Main></Main>, children:[
 
-  const handleToast =()=>{
-    toast.success('This is Toast')
-  }
+      {path:'/', element:<Home></Home>}
+    ]}
+  ])
 
   return (
     <div className="App">
- <h1>I am Rafat</h1>
+      <RouterProvider router={router}>
 
- <button className="btn">Button</button>
-<button onClick={handleToast} className="btn btn-primary">Button</button>
-<button className="btn btn-secondary">Button</button>
-<button className="btn btn-accent">Button</button>
-<button className="btn btn-ghost">Button</button>
-<button className="btn btn-link">Button</button>
+      </RouterProvider>
 
     </div>
   );

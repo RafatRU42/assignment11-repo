@@ -1,16 +1,32 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-info">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <h1 className='fw-bold text-5xl text-slate-50 mx-7'>ICT Tutor Home</h1>
                 </div>
-                <div className="flex-none">
-                    <button className="btn btn-square btn-ghost">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
-                    </button>
+                <div className="flex-none m-5">
+                <button className="btn btn-outline btn-warning mx-2 bold">
+                <Link to='/home'>Home</Link>
+                </button>
+                <button className="btn btn-outline btn-warning mx-2">
+                <Link to='/service'>Service</Link>
+
+                </button>
+                <button className="btn btn-outline btn-warning mx-2">
+                <Link to='/blog'>Blog</Link>
+
+                </button>
+                <button className="btn btn-outline btn-warning mx-2">
+                <Link to='/login'>Login</Link>
+
+                </button>
+
+                 
+                   
                 </div>
             </div>
         </div>

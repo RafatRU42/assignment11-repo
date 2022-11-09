@@ -1,18 +1,23 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import igm from '../../profile.jpg'
+import './Home.css'
 
 const Home = () => {
+
+    const services = useLoaderData();
     return (
         <div>
             <div className="card card-side bg-base-100 shadow-xl m-6">
-                <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure>
+                <figure><img className='imag' src={igm} alt="Movie" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
+                    <h2 className="text-3xl text-center font-bold">Welcome to Our Tutorial Home!</h2>
+                    <p className='text-2xl'>Ours is an age of modern Science. Day by day the world updated. So Why we will take ourself to the back side. We should try <br /> to develop Ourself. If we can not develop ourself we will not reach to our goal. <br />Best wishes for you. </p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Watch</button>
                     </div>
                 </div>
             </div>
+            <p>services: {services.length}</p>
         </div>
 
     );

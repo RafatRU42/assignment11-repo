@@ -1,0 +1,42 @@
+[
+    {   
+        "name":"Basic Of ICT",
+        "image":"https://i.postimg.cc/RFpBvgg3/ICT.png",
+        "Price": 4000,
+        "description": "The knowledge of ICT is very important in this modern world. No one can improve himself/herself without the knowledge of ICT. So Everyone should take the knowledge of ICT.The skills needed to use efficiently the elementary functions of information and communication technologies to retrieve, assess, store, produce, present and exchange information, and to communicate and participate in collaborative networks via the internet."
+    },
+    {
+        "name":"Networking System",
+        "image":"https://i.postimg.cc/qRV74bGT/download.jpg",
+        "Price": 4000,
+        "description": "The Networking System is improving day by day. Only 2 years difference we have jumped to 4G from 3G.Computer Network Or network Is a group of computers and devices. Being connected to the network can communicate. information exchange And equipment Network sharing network that has multiple dimensions. From a small computer connected by only a few machines."
+    },
+    {
+        "name":"Basic Number System",
+        "image":"https://i.postimg.cc/bNNwy21s/images.png",
+        "Price": 3000,
+        "description": "The number system or the numeral system is the system of naming or representing numbers. We know that a number is a mathematical value that helps to count or measure objects and it helps in performing various mathematical calculations. There are different types of number systems in Maths like decimal number system, binary number system, octal number system, and hexadecimal number system. In this article, we are going to learn what is a number system in Maths, different types, and conversion procedures with many number system examples in detail. Also, check mathematics for grade 12 here."
+    },
+    {
+        "name":"Electrical Circuit",
+        "image":"https://i.postimg.cc/WzsbJdKY/download.png",
+        "Price": 2000,
+        "description": "Electric circuits are classified in several ways. A direct-current circuit carries current that flows only in one direction. An alternating-current circuit carries current that pulsates back and forth many times each second, as in most household circuits. (For a more-detailed discussion of direct- and alternating-current circuits, see electricity: Direct electric current and electricity: Alternating electric currents.) A series circuit comprises a path along which the whole current flows through each component. A parallel circuit comprises branches so that the current divides and only part of it flows through any branch. The voltage, or potential difference, across each branch of a parallel circuit is the same, but the currents may vary. In a home electrical circuit, for instance, the same voltage is applied across each light or appliance, but each of these loads draws a different amount of current, according to its power requirements. A number of similar batteries connected in parallel provides greater current than a single battery, but the voltage is the same as for a single battery. See also integrated circuit; tuned circuit."
+
+       
+    },
+    {
+        "name":"Basic Of Database",
+        "image":"https://i.postimg.cc/5Nx6XrW9/download-1.png",
+        "Price": 5000,
+        "description": "A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS). Together, the data and the DBMS, along with the applications that are associated with them, are referred to as a database system, often shortened to just database.Data within the most common types of databases in operation today is typically modeled in rows and columns in a series of tables to make processing and data querying efficient. The data can then be easily accessed, managed, modified, updated, controlled, and organized. Most databases use structured query language (SQL) for writing and querying data."
+
+        
+    },
+    {
+        "name":"Basic Of Web Development",
+        "image":"https://i.postimg.cc/nrKjyb8g/download-1.jpg",
+        "Price": 6000,
+        "description": "Microsoft offers a variety of resources for web developers, including new tools and features supporting web development using Windows. This guide covers many of the tools available and provides a place to leave feedback toward making Windows your ideal environment to develop on for the web. For a list of APIs, see APIs for web development."
+    }
+]

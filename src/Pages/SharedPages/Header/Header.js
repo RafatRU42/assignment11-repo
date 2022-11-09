@@ -17,7 +17,7 @@ const Header = () => {
         <div>
             <div className="navbar bg-info">
                 <div className="flex-1">
-                    <h1 className='font-bold text-5xl text-slate-50 mx-7'>ICT Tutor Home</h1>
+                    <h1 className='font-bold text-5xl text-slate-50 mx-7'>Mobile Servicing Home</h1>
                 </div>
                 <div className="flex-none m-5">
                     <button className="btn btn-success mx-2 bold">

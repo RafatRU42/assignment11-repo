@@ -28,7 +28,7 @@ function App() {
       {path:'/blog', element: <Blog></Blog>},
       {path:'/myreviews', element: <PrivateRoute><MyReviews></MyReviews></PrivateRoute>},
       {path:'/addservice', element: <AddService></AddService>},
-      {path:'/services/:id', element: <Details></Details>,loader:({params}) =>fetch(`http://localhost:5000/allservices/${params.id}`)},
+      {path:'/services/:id', element: <Details></Details>,loader:({params}) =>fetch(`https://service-review-server-sigma-lyart.vercel.app/allservices/${params.id}`)},
     ]}
   ])
 

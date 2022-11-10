@@ -1,10 +1,15 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { authContext } from '../SharedPages/AuthContext/AuthContext';
+import UseTitle from '../UseTitle';
 
 const Login = () => {
     const { loginUser,googleLogin } = useContext(authContext)
+    const location = useLocation();
+    const navigate = useNavigate()
+    const from = location.state?.from?.pathname || '/'
 
+    UseTitle('Login')
 
     const handleLogin = event => {
         event.preventDefault();
@@ -15,6 +20,7 @@ const Login = () => {
         loginUser(email, password)
             .then(result => {
                 console.log(result)
+                navigate(from,{replace:true})
                 form.reset()
             })
             .catch(error => {

@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import igm from '../../profile.jpg'
 import HomeService from '../HomeService/HomeService';
+import UseTitle from '../UseTitle';
 import './Home.css'
 
 const Home = () => {
+  UseTitle('Home')
     const [service, setService] = useState([])
 
     useEffect(() => {
@@ -33,6 +35,27 @@ const Home = () => {
 
             </div>
             <button className='butto btn btn-secondary m-5 font-bold text-2xl'><Link to='/services'>See All</Link></button>
+
+            <div className="carousel w-full">
+  <div id="slide1" className="carousel-item relative w-full">
+    <img src="https://i.postimg.cc/5yPScpJ8/images-1.jpg" className="w-full" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+     
+    </div>
+  </div> 
+
+ 
+</div>
+
+<div className="collapse my-4">
+  <input type="checkbox" className="peer" /> 
+  <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+    About Me
+  </div>
+  <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"> 
+    <p>I Can Service any kind of damaged phone. If you have any damaged phone please come to me with Your phone. I will try to solve your problem. Nothing to Tention.</p>
+  </div>
+</div>
 
         </div>
 

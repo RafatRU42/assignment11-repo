@@ -1,6 +1,8 @@
 import React from 'react';
+import UseTitle from '../UseTitle';
 
 const Blog = () => {
+    UseTitle('Blog')
     return (
         <div>
             <p className='text-3xl'>1. What is SQL Database ? </p>

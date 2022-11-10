@@ -1,3 +1,22 @@
+* I have used tailwind css as the css library. 
+
+* I used daisyui as also css component. 
+
+* I devided the pages into many routes. 
+
+* Mobile Servicing theory is used for this assignment . Evetything is nearly completed. 
+
+* Three services are added at the home routes. 
+
+* ^ services added at the service component. 
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

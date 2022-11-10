@@ -31,11 +31,15 @@ const Header = () => {
 
                         <>
                             <button className="btn btn-success mx-2">
-                                <Link to='/service'>Service</Link>
+                                <Link to='/service'>Services</Link>
 
                             </button>
                             <button className="btn btn-success mx-2">
-                                <Link to='/reviews'>Reviews</Link>
+                                <Link to='/myreviews'>My Reviews</Link>
+
+                            </button>
+                            <button className="btn btn-success mx-2">
+                                <Link to='/addservice'>Add Service</Link>
 
                             </button>
 
